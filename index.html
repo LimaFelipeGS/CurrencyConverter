@@ -12,11 +12,11 @@
         <h1>Conversor de Moedas</h1>
         <div class="controls" id="controls">
             <div class="control">
-                <button id="base">USD</button>
+                <button id="base" data-drawer>USD</button>
                 <input type="number" id="base-input" value="0" min="0" step="0.01">
             </div>
             <div class="control">
-                <button id="target">EUR</button>
+                <button id="target" data-drawer>EUR</button>
                 <input type="number" id="target-input" value="0" readonly>
             </div>
             <button class="swap-button" id="swap-button">
@@ -25,7 +25,7 @@
         </div>
         <div class="exchange-rate">
             <h5>Taxa de Câmbio</h5>
-            <span id="exchange-rate">1 USD = 0.0000 EUR</span>
+            <span id="exchange-rate" ></span>
         </div>
 
         <div class="drawer" id="drawer">
@@ -39,13 +39,6 @@
                 <input type="search" id="search" placeholder="Search">
             </div>
             <ul class="currency-list" id="currency-list">
-                <li>
-                    <img src="https://placehold.co/48" alt="">
-                    <div>
-                        <h4>USD</h4>
-                        <p>US Dollar</p>
-                    </div>
-                </li>
             </ul>
         </div>
     </main>
