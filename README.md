@@ -1,3 +1,5 @@
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/LimaFelipeGS/CurrencyConverter/blob/main/README.en.md)
+
 # CurrencyConverter
 
 ## Descrição
