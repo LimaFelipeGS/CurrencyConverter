@@ -28,7 +28,7 @@ CurrencyConverter is an application built with HTML, CSS and JavaScript in brazi
 
 ## API Key
 
-Use your own API Key o run the application following these steps:
+Use your own API Key to run the application following these steps:
 - Visit [FreeCurrencyAPI](https://freecurrencyapi.com/)
 - Create your own account for free
 - Copy the API Key that will be generated automatically
